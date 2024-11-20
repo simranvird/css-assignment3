@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #A8E6CF, #FF8C94);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Section */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.facts, .nutrition {
+    margin-top: 40px;
+}
+
+.facts h2, .nutrition h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.facts ul, .nutrition ul {
+    list-style: none;
+    padding: 0;
+}
+
+.facts li, .nutrition li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Hover Effect */
+a:hover {
+    text-decoration: underline;
+    color: #FF8C94;
+}
+
+.intro img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .logo h2 {
+    font-size: 2em;
+}
+
+footer .contact-form input,
+footer .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer .contact-form button {
+    padding: 10px 20px;
+    background-color: #FF8C94;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+}
+
+footer .company-info p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+footer .contact-form input,
+footer .contact-form textarea {
+    margin-bottom: 20px;
+}
